@@ -12,6 +12,8 @@
 		432FFCAF1E2D3BC2005BFBDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432FFCAD1E2D3BC2005BFBDA /* Main.storyboard */; };
 		432FFCB11E2D3BC2005BFBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432FFCB01E2D3BC2005BFBDA /* Assets.xcassets */; };
 		432FFCB41E2D3BC2005BFBDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432FFCB21E2D3BC2005BFBDA /* LaunchScreen.storyboard */; };
+		432FFCBE1E2D3D0F005BFBDA /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432FFCBC1E2D3D0F005BFBDA /* MyTableViewCell.swift */; };
+		432FFCBF1E2D3D0F005BFBDA /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432FFCBD1E2D3D0F005BFBDA /* MyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		432FFCB01E2D3BC2005BFBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		432FFCB31E2D3BC2005BFBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		432FFCB51E2D3BC2005BFBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432FFCBC1E2D3D0F005BFBDA /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		432FFCBD1E2D3D0F005BFBDA /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		432FFCA81E2D3BC2005BFBDA /* iOS Custom TableViewCell Example */ = {
 			isa = PBXGroup;
 			children = (
+				432FFCBB1E2D3CCD005BFBDA /* MyCustomCell */,
 				432FFCA91E2D3BC2005BFBDA /* AppDelegate.swift */,
 				432FFCAB1E2D3BC2005BFBDA /* ViewController.swift */,
 				432FFCAD1E2D3BC2005BFBDA /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				432FFCB51E2D3BC2005BFBDA /* Info.plist */,
 			);
 			path = "iOS Custom TableViewCell Example";
+			sourceTree = "<group>";
+		};
+		432FFCBB1E2D3CCD005BFBDA /* MyCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				432FFCBC1E2D3D0F005BFBDA /* MyTableViewCell.swift */,
+				432FFCBD1E2D3D0F005BFBDA /* MyTableViewCell.xib */,
+			);
+			path = MyCustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				432FFCB41E2D3BC2005BFBDA /* LaunchScreen.storyboard in Resources */,
+				432FFCBF1E2D3D0F005BFBDA /* MyTableViewCell.xib in Resources */,
 				432FFCB11E2D3BC2005BFBDA /* Assets.xcassets in Resources */,
 				432FFCAF1E2D3BC2005BFBDA /* Main.storyboard in Resources */,
 			);
@@ -138,6 +153,7 @@
 			files = (
 				432FFCAC1E2D3BC2005BFBDA /* ViewController.swift in Sources */,
 				432FFCAA1E2D3BC2005BFBDA /* AppDelegate.swift in Sources */,
+				432FFCBE1E2D3D0F005BFBDA /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
