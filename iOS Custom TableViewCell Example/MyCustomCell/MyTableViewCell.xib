@@ -23,21 +23,27 @@
                         <rect key="frame" x="8" y="8" width="304" height="62"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y4D-2T-sW4">
-                                <rect key="frame" x="0.0" y="0.0" width="304" height="20.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="304" height="19"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfI-PR-9OO">
-                                        <rect key="frame" x="0.0" y="0.0" width="304" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfI-PR-9OO">
+                                        <rect key="frame" x="0.0" y="0.0" width="304" height="19"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="title label">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="Arial-BoldMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d8o-le-dg4">
-                                <rect key="frame" x="0.0" y="20.5" width="304" height="41.5"/>
+                                <rect key="frame" x="0.0" y="19" width="304" height="43"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18y-sp-Ps9">
-                                        <rect key="frame" x="0.0" y="3.5" width="35" height="35"/>
+                                        <rect key="frame" x="0.0" y="4" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="35" id="CZf-kh-Otl"/>
                                             <constraint firstAttribute="height" constant="35" id="EDX-Ip-YmZ"/>
@@ -46,7 +52,7 @@
                                         <state key="normal" title="Button" image="pause_image"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="body label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onO-bR-r7J">
-                                        <rect key="frame" x="35" y="10.5" width="269" height="20.5"/>
+                                        <rect key="frame" x="35" y="11.5" width="269" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
