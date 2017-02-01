@@ -315,6 +315,7 @@
 				432FFCBA1E2D3BC2005BFBDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
