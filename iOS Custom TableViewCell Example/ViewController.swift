@@ -51,10 +51,15 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = Bundle.main.loadNibNamed("MyTableViewCell", owner: self, options: nil)?.first as! MyTableViewCell
+        //let cell = Bundle.main.loadNibNamed("MyTableViewCell", owner: self, options: nil)?.first as! MyTableViewCell
         
-        cell.myCellTitleTextView.text = titles[indexPath.row][0]
-        cell.myCellTextView.text = titles[indexPath.row][1]
+        //cell.myCellTitleTextView.text = titles[indexPath.row][0]
+        //cell.myCellTextView.text = titles[indexPath.row][1]
+        
+        let cell = Bundle.main.loadNibNamed("SimpleTableViewCell", owner: self, options: nil)?.first as! SimpleTableViewCell
+        
+        cell.headerLabel.text = titles[indexPath.row][0]
+        cell.detailLabel.text = titles[indexPath.row][1]
         
         return cell
     }
